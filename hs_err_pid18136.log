@@ -1,0 +1,59 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff9d19ac2c4, pid=18136, tid=16484
+#
+# JRE version: Java(TM) SE Runtime Environment (25.0.4+7) (build 25.0.4+7-LTS-189)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.0.4+7-LTS-189, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# Problematic frame:
+# C  [cyjagent.dll+0xc2c4]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -javaagent:C:\PROG2627\tools\intellij\lib\idea_rt.jar=64146 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -agentpath:C:\Program Files\Palo Alto Networks\Traps\cyjagent.dll Cours1.TP1
+
+Host: 12th Gen Intel(R) Core(TM) i5-12400T, 12 cores, 15G,  Windows 10 , 64 bit Build 19041 (10.0.19041.3155)
+Time: Mon Sep 14 09:23:50 2026 elapsed time: 0.223874 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000002289b1c4850):  JavaThread "Monitor Ctrl-Break" daemon [_thread_in_native, id=16484, stack(0x000000ca11f00000,0x000000ca12000000) (1024K)]
+
+Stack: [0x000000ca11f00000,0x000000ca12000000],  sp=0x000000ca11ffd370,  free space=1012k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [cyjagent.dll+0xc2c4]  (no source info available)
+V  [jvm.dll+0x64bf28]  (no source info available)
+V  [jvm.dll+0x643732]  (no source info available)
+V  [jvm.dll+0x643845]  (no source info available)
+V  [jvm.dll+0x669ee2]  (no source info available)
+V  [jvm.dll+0x8d6d99]  (no source info available)
+V  [jvm.dll+0x8d6949]  (no source info available)
+V  [jvm.dll+0x8d7a6a]  (no source info available)
+V  [jvm.dll+0x8d8176]  (no source info available)
+V  [jvm.dll+0x8d31a2]  (no source info available)
+V  [jvm.dll+0x8d6d46]  (no source info available)
+V  [jvm.dll+0x8d6949]  (no source info available)
+V  [jvm.dll+0x8d7a6a]  (no source info available)
+V  [jvm.dll+0x8d8176]  (no source info available)
+V  [jvm.dll+0x8d31a2]  (no source info available)
+V  [jvm.dll+0x8d6d46]  (no source info available)
+V  [jvm.dll+0x8d6949]  (no source info available)
+V  [jvm.dll+0x8d7a6a]  (no source info available)
+V  [jvm.dll+0x8d8176]  (no source info available)
+V  [jvm.dll+0x8d31a2]  (no source info available)
+V  [jvm.dll+0x8d6d46]  (no source info available)
+V  [jvm.dll+0x8d6949]  (no source info available)
+V  [jvm.dll+0x8d7a6a]  (no source info available)
+V  [jvm.dll+0x8d7fa2]  (no source info available)
+V  [jvm.dll+0x8d7cf6]  (no source info available)
+V  [jvm.dll+0x2e5b12]  (no source info available)
+V  [jvm.dll+0x47256e]  (no source info available)
+C
