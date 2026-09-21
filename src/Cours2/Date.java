@@ -4,8 +4,8 @@ package Cours2;
 public class Date {
     int day,month,year;
 
-    private final String[] dayN = new String[]{"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
-    private final String[] monthN = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+    private final String[] DAYS_N = new String[]{"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+    private final String[] MONTH_N = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 
     public Date(int d, int m, int y){
         this.day =d;
@@ -62,7 +62,7 @@ public class Date {
 
     @Override
     public String toString(){
-        return dayN[dayOfWeek()]+" "+this.day +" "+monthN[this.month-1] +" "+this.year;
+        return DAYS_N[dayOfWeek()]+" "+this.day +" "+MONTH_N[this.month-1] +" "+this.year;
     }
 
     public void prettyprint(){

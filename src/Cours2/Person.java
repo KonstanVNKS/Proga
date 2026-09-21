@@ -13,7 +13,7 @@ public class Person {
 
     @Override
     public String toString(){
-        return this.firstName+" "+this.lastName+", Born  "+this.dateOfBirth.toString();
+        return this.firstName+" "+this.lastName+", Born  "+this.dateOfBirth;
     }
 
     public int getAge(){
