@@ -5,7 +5,8 @@ public class TestDate {
 //        Person p1 = new Person("Kosta", "Vanakas",25,8,2004);
 //        System.out.println(p1);
 //        System.out.println(p1.getAge());
-        Date test1 = new Date(5,9,2006);
+        Date test1 = new Date(31,12,2021);
         System.out.println(test1.dayOfYear());
+        test1.prettyprint();
     }
 }

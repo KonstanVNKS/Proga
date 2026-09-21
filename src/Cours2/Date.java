@@ -1,12 +1,11 @@
 package Cours2;
 
-import java.util.ArrayList;
 
 public class Date {
     int day,month,year;
 
-    private String[] dayN = new String[]{"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
-    private String[] monthN = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+    private final String[] dayN = new String[]{"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+    private final String[] monthN = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 
     public Date(int d, int m, int y){
         this.day =d;
@@ -67,7 +66,7 @@ public class Date {
     }
 
     public void prettyprint(){
-        System.out.println(this.toString());
+        System.out.println(this);
     }
 
     public int compare(Date d2){
