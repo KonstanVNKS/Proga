@@ -6,12 +6,10 @@ import javafx.scene.paint.Color;
 public class Rectangle extends Shape{
     private final int width;
     private final int lenght;
-    private final Point point;
 
 
     public Rectangle(Point point, int width, int length, Color color){
         super(point,color);
-        this.point=point;
         this.lenght=length;
         this.width=width;
     }
@@ -38,7 +36,7 @@ public class Rectangle extends Shape{
 
     @Override
     public String toString(){
-        return "Rectangle pos "+this.point.toString()+" width="+this.getWidth()+" height="+
+        return "Rectangle pos "+this.getOrigin().toString() +"width="+this.getWidth()+" height="+
                 this.getLenght()+" area="+this.getArea();
     }
 }

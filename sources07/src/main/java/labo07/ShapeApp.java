@@ -39,7 +39,7 @@ public class ShapeApp extends Application {
 
         Rectangle r = new Rectangle(new Point(200,200),40,40,red);
         Rectangle r1 = new Rectangle(new Point(300,300),80,40,red);
-        r.translate(40,40);
+
         shapes.add(c);
         shapes.add(c1);
         shapes.add(c2);

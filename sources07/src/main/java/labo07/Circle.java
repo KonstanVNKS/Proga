@@ -22,12 +22,12 @@ public class Circle extends Shape{
     public void paintOn(GraphicsContext g){
         g.setStroke(this.getColor());
         g.strokeText(this.toString(),getX(),getY());
-        g.strokeOval(getX(),getY(),2*getRadius(),2*getRadius());
+        g.strokeOval(getX()-radius,getY()-radius,2*getRadius(),2*getRadius());
 
     }
 
     @Override
     public String toString(){
-        return "Circle center=["+ getX()+","+getY()+"] radius="+getRadius()+" area="+getArea();
+        return "Circle center="+this.getOrigin().toString()+" radius="+getRadius()+" area="+getArea();
     }
 }
